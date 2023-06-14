@@ -1,0 +1,30 @@
+{
+  "name": "tidb-node-mysql-demo",
+  "version": "1.0.0",
+  "description": "A demo to show how to connect to TiDB using mysqljs/mysql driver.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "demo:connect-with-options": "node src/connect-with-options/index.js",
+    "demo:connect-with-url": "node src/connect-with-url/index.js",
+    "demo:connect-with-ssl-options": "node src/connect-with-ssl-options/index.js",
+    "demo:query-data": "node src/query-data/index.js",
+    "demo:insert-data": "node src/insert-data/index.js",
+    "demo:bulk-insert-data": "node src/bulk-insert-data/index.js",
+    "demo:update-data": "node src/update-data/index.js",
+    "demo:bulk-update-data": "node src/bulk-update-data/index.js",
+    "demo:delete-data": "node src/delete-data/index.js",
+    "demo:bulk-delete-data": "node src/bulk-delete-data/index.js",
+    "demo:transaction": "node src/transaction/index.js",
+    "demo:transaction-optimistic": "node src/transaction-optimistic/index.js",
+    "demo:transaction-pessimistic": "node src/transaction-pessimistic/index.js",
+    "demo:transaction-write-skew": "node src/transaction-write-skew/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache",
+  "dependencies": {
+    "env-schema": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
