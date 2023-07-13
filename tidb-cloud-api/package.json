@@ -1,0 +1,22 @@
+{
+  "name": "data-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/using-digest-fetch-to-auth/index.ts",
+    "using-digest-fetch-to-auth:start": "node ./dist/using-digest-fetch-to-auth/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "digest-fetch": "v2",
+    "env-schema": "^5.2.0",
+    "node-fetch": "v2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2"
+  }
+}
