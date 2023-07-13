@@ -1,0 +1,25 @@
+{
+  "name": "tidb-node-prisma-demo",
+  "version": "1.0.0",
+  "description": "A demo to show how to connect to TiDB using Prisma ORM framework.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/main.ts"
+  },
+  "keywords": [
+    "tidb",
+    "prisma",
+    "demo"
+  ],
+  "author": "Mini256",
+  "license": "Apache",
+  "dependencies": {
+    "@prisma/client": "4.14.0",
+    "env-schema": "^5.2.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.15.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
