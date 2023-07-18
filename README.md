@@ -2,7 +2,7 @@
 
 This repository is a set of TiDB sample code for Node.js developers, which is written in TypeScript and JavaScript.
 
-Due to TiDB's compatibility with the MySQL protocol, most of these examples are also applicable and valuable to the developers who using MySQL and MariaDB databases.
+Due to TiDB's MySQL compatibility, most of the examples are also applicable and valuable to the developers who using MySQL and MariaDB databases.
 
 ## Getting started
 
@@ -35,14 +35,14 @@ There is a README.md file in each directory, which will introduce how to run the
 
 For Driver, we recommend using mysql2 for development.
 
-| Name                          | Category        | URL                                                   | Status |
-|-------------------------------|-----------------|-------------------------------------------------------|--------|
-| [mysqljs/mysql](./node_mysql) | `Driver`        | https://github.com/mysqljs/mysql (17.8k stars)        | WIP    |
-| [mysql2](./node_mysql2)       | `Driver`        | https://github.com/sidorares/node-mysql2 (3.5k stars) | WIP    |
-| knex/knex                     | `Query Builder` | https://github.com/knex/knex (17.6k stars)            | TODO   |
-| TypeORM                       | `ORM`           | https://github.com/typeorm/typeorm (31.3k stars)      | TODO   |
-| Prisma                        | `ORM`           | https://github.com/prisma/prisma (31.5k stars)        | TODO   |
-| Sequelize                     | `ORM`           | https://github.com/sequelize/sequelize (27.9k stars)  | TODO   |
+| Name                                                             | Category        | Examples                           |
+|------------------------------------------------------------------|-----------------|------------------------------------|
+| [mysqljs/mysql](https://github.com/mysqljs/mysql)                | `Driver`        | [➡️ Examples (WIP)](./node_mysql)  |
+| [mysql2](https://github.com/sidorares/node-mysql2) (Recommended) | `Driver`        | [➡️ Examples (WIP)](./node_mysql2) |
+| [knex/knex](https://github.com/knex/knex)                        | `Query Builder` | TODO                               |                                
+| [TypeORM](https://github.com/typeorm/typeorm)                    | `ORM`           | TODO                               |
+| [Prisma](https://github.com/prisma/prisma)                       | `ORM`           | TODO                               |
+| [Sequelize](https://github.com/sequelize/sequelize)              | `ORM`           | TODO                               |
 
 ### Advanced Topics
 
