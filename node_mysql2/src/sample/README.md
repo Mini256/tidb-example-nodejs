@@ -7,7 +7,7 @@
 Run the demo:
 
 ```shell
-npm run demo:simple
+npm run demo:sample
 ```
 
 ### Expected Output

@@ -88,7 +88,7 @@ DATABASE_URL=mysql://xxxxx.root:password@gateway01.us-west-2.prod.aws.tidbcloud.
 - [Connect with Connection URL](./src/connect-with-url/README.md)
 - [Connect with Connection Options](./src/connect-with-options/README.md)
 - [Connect with SSL Connection Options](./src/connect-with-ssl-options/README.md)
-- [Simple Example](./src/simple/README.md)
+- [Simple Example](src/sample/README.md)
 - [Query data](./src/query-data/README.md)
 - [Insert data](./src/insert-data/README.md)
 - [Bulk insert data](./src/bulk-insert-data/README.md)
