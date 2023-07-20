@@ -30,7 +30,6 @@
   "license": "Apache",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "env-schema": "^5.2.0",
-    "mysql2": "^3.5.1"
+    "mysql2": "^3.5.2"
   }
 }
