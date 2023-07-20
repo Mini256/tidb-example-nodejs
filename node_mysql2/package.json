@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "demo:simple": "node src/simple/index.js",
     "demo:connect-with-options": "node src/connect-with-options/index.js",
     "demo:connect-with-url": "node src/connect-with-url/index.js",
     "demo:connect-with-ssl-options": "node src/connect-with-ssl-options/index.js",
