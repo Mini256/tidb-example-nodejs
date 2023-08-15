@@ -1,4 +1,4 @@
-# TiDB Develop Guide with mysqljs/mysql
+# TiDB Develop Guide with node-mysql2
 
 This guide will introduce how to use the Node.js library [node-mysql2](https://github.com/sidorares/node-mysql2) to develop and build applications with TiDB as the underlying database.
 
